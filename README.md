@@ -1,8 +1,18 @@
+## Requirements
+This application requires the following to be installed
+- PHP 7 and above
+- nodejs
+- composer
+
 ## How to Run this application
 After downloading or pulling this project from Github, run the command below to install and update
 the node module:
 
 `$ npm install`
+
+You can also run the command below to update your PHP libraries. Though it might not be necessary, becuase I included the `vendor` folder in the initial push of the project. The command however is : 
+
+`$ composer install`
 
 Next is to check the database configurations, by opening the .env file. In this file, we see that the database name is 'prenlytest'. Hence run and open up your mysql database and create the database 'prenlytest'. If you have a different database username, password and port number, you can change them here.
 
